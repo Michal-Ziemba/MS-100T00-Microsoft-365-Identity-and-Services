@@ -255,35 +255,25 @@ As part of her Microsoft Teams pilot project, Holly Dickson wants to block commu
 
 1. On LON-DC1, you should still be logged in as the Adatum Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
-2. In your Edge browser, in the **Microsoft Teams admin center**, select **Org-wide settings** in the left-hand navigation pane and then select **External access.**
+2. In your Edge browser, in the **Microsoft Teams admin center**, under **Users** in the left-hand navigation pane select **External access.**
 
-3. In the **External access** window, leave the two settings involving Skype for Business/Teams and Skype users set to **On**. Also note that in the list of domains, the domain of the IT Consultant who helped formulate the new Service Request Ticketing system (**xxxxxZZZZZZonmicrosoft.com**) appears in the list, and that communication is Allowed with this domain. You added this domain back in Lab 1. 
+3. In the **External access** window, leave the two settings involving Skype for Business/Teams and Skype users set to **On**. 
 
-4. To add the domain in which you want to allow communication, select **+Add a domain** in the menu bar that appears above the list.  
+7. To add the blocked domain, in the **External access** window, select **Block only specyfic external domains** under **Choose which external domains your users have access to:** 
 
-5. In the **Add a domain** window, enter the following information:
+8. Select +**Block domains**
 
-	- Domain: **microsoft.com**
-
-	- Action to take on this domain: **Allowed**
-
-6. Select **Done.** 
-
-7. To add the blocked domain, in the **External access** window, select **Add a domain.**
-
-8. In the **Add a domain** pane that appears on the right, enter the following information:
+9. In the **Add external domain** pane that appears on the right, enter the following information:
 
 	- Domain: **spam.com**
 
-	- Action to take on this domain: **Blocked**
+10. Select **Done.**
 
-9. Select **Done.**
+11. In the **External access** window, validate that **spam.com** listed on block domains.
 
-10. In the **External access** window, validate that **microsoft.com** and **spam.com** are represented in the list of domains and that each has the appropriate Status.
+12. Select **Save.**
 
-11. Select **Save.**
-
-12. Leave all tabs open in your browser and proceed to the next task. 
+13. Leave all tabs open in your browser and proceed to the next task. 
 
 
 ### Task 8 – Manage Guest Access
@@ -294,7 +284,7 @@ As part of your Microsoft Teams pilot project for Adatum, you will customize a v
 
 1. On LON-DC1, you should still be logged in as the Adatum Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
-2. In your Edge browser, in the **Microsoft Teams admin center**, under **Org-wide settings** in the left-hand navigation pane select **Guest access.**
+2. In your Edge browser, in the **Microsoft Teams admin center**, under **Users** in the left-hand navigation pane select **Guest access.**
 
 3. In the **Guest access** window, verify the **Allow guest access in Teams** setting is set to **On**. If it's turned Off, then change this setting to **On**.  
 
